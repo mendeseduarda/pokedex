@@ -14,10 +14,10 @@ const Container = styled.div`
   }
 `;
 
-const Chip = () => {
+const Chip = (type) => {
   return (
     <Container>
-      <p>hello</p>
+      <p>{type}</p>
     </Container>
   );
 }
