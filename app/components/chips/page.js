@@ -1,5 +1,6 @@
 'use client'
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 
 const Container = styled.div`
   background-color: #AAA67F;
@@ -14,12 +15,16 @@ const Container = styled.div`
   }
 `;
 
-const Chip = (type) => {
+const Chip = ({type}) => {
   return (
     <Container>
       <p>{type}</p>
     </Container>
   );
 }
+
+Chip.propTypes = {
+  type: PropTypes.string.isRequired,
+};
 
 export default Chip;
