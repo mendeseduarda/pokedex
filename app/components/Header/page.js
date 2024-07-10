@@ -17,6 +17,7 @@ const InnerContainer = styled.div`
   width: 1200px;
   max-width: 100%;
   margin: 0 auto;
+
  
 `;
 
@@ -24,7 +25,7 @@ export const Header = () => {
   return (
     <Container>
       <InnerContainer>
-        <Image src={Logo} width={200} height={150} alt="logo do site" />
+        <Image src={Logo} width={150} height={100} alt="logo do site" />
         <Search />
       </InnerContainer>
     </Container>

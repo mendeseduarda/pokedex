@@ -15,7 +15,7 @@ export const Container = styled.div`
     position: absolute;
     background-color: #EFEFEF;
     height: 150px;
-    width: 230px;
+    width: 233px;
     bottom: 0px;
     left: 0px;
     border-radius: 8px;

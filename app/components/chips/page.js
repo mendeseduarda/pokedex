@@ -3,13 +3,14 @@ import styled from 'styled-components';
 import PropTypes from 'prop-types';
 
 const Container = styled.div`
-  background-color: #AAA67F;
+  background-color: #FFCC33;
   display: inline-block;
   border-radius:10px;
   padding: 2px 10px;
+  margin: 2px;
 
   p{
-    font-size:10px;
+    font-size:12px;
     font-weight: bold;
     line-height:16px;
   }

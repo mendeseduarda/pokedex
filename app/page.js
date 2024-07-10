@@ -1,9 +1,10 @@
 import {fetchData} from "./api/pokemonsList"
 import Card from "./components/Card/page"
+import Container from "./style"
 
 const App = async () => {
     const {results} = await fetchData()
-    const limitedResults = results.slice(0, 3);
+    const limitedResults = results.slice(0, 5);
 
 
     return (
